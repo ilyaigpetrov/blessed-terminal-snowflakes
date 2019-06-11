@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify --ignore-missing ./index.js -o ./docs/bundle.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "neo-blessed": "^0.2.0"
+    "neo-blessed": "^0.2.0",
+    "term.js": "0.0.7"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
   }
 }

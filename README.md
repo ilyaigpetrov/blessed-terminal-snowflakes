@@ -11,4 +11,6 @@ Implemented with library [neo-blessed](https://github.com/embark-framework/neo-b
 
 # Demo
 
+[In browser](https://ilyaigpetrov.github.io/blessed-terminal-snowflakes/).
+
 ![Snowflakes animated in a terminal](./snowflakes.gif)
